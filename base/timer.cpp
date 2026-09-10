@@ -141,7 +141,7 @@ int DelayedCallTimer::call(
 void DelayedCallTimer::cancel(int callId) {
 	if (callId) {
 		killTimer(callId);
-		_callbacks.removeAll(callId);
+		_callbacks.remove(callId);
 	}
 }
 
