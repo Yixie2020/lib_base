@@ -8,6 +8,8 @@
 
 #include "base/file_lock.h"
 
+#include <rpl/event_stream.h>
+#include <rpl/producer.h>
 #include <QtNetwork/QLocalServer>
 #include <QtNetwork/QLocalSocket>
 
