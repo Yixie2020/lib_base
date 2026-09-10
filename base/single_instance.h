@@ -7,6 +7,7 @@
 #pragma once
 
 #include "base/file_lock.h"
+#include "base/flat_map.h"
 
 #include <rpl/event_stream.h>
 #include <rpl/producer.h>
